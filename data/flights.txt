@@ -1,0 +1,12 @@
+[
+["HKG", "LHR"],
+["SFO", "DCA"],
+["IAD", "DTW"],
+["DTW", "IAD"],
+["DCA", "FLL"],
+["FLL", "SLC"],
+["SLC", "SFO"],
+["SFO", "LHR"],
+["JFK", "LAX"],
+["LAX", "SYD"]
+]

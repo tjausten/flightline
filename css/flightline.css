@@ -1,0 +1,69 @@
+/* Page style */
+@media(max-width: 768px) {
+  .content {
+    padding-top: 15px;
+  }
+}
+
+@media(min-width: 768px) {
+  .content {
+    padding-top: 30px;    
+  }
+}
+
+body {
+  background-color: #000;
+}
+
+h1, h2, h3, h4, h5, p.lead {
+  color: #fff;
+}
+
+.content {
+  min-height: 370px;
+}
+
+/* Map style */
+.countries {
+fill: #000;
+stroke: #00ff00;
+stroke-width: 0.5px;
+stroke-linecap: round;
+stroke-linejoin: round;
+vector-effect: non-scaling-stroke;
+}
+
+.airports {
+fill: #036;
+stroke: #6cb0e0;
+stroke-width: 0.5px;
+stroke-linecap: round;
+stroke-linejoin: round;
+vector-effect: non-scaling-stroke;
+}
+
+.route {
+fill: none;
+stroke: #00ff00;
+stroke-width: 0.5px;
+stroke-linecap: round;
+stroke-linejoin: round;
+vector-effect: non-scaling-stroke;
+}
+
+.plane {
+fill: #fff;
+stroke-width: 0;
+}
+
+@media(max-width: 768px) {
+  #map {
+    margin-top: -100px;
+  }
+}
+
+@media(min-width: 768px) {
+  #map {
+    margin-top: -300px;
+  }
+}
